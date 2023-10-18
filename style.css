@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(44, 50, 161);
+    color: white;
+}
+nav{
+    display:flex;
+    background-image: linear-gradient( to bottom right, rgb(221, 212, 32),rgb(214, 103, 11))
+}
+nav ul{
+    display:flex;
+    justify-content:center;
+    padding-left: 600px;
+    padding-top: 50px;
+    display: inline-block;
+}
+nav ul li{
+    list-style-type:none;
+    margin:0 23px ;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:1.4rem;
+}
+nav ul li a:hover{
+    color:red;
+    font-size:1.5rem;
+}
+img{
+    width: 100px;
+    margin-top:10px;
+    padding-left:50px;
+}
+.head{
+    margin: 50px;
+    padding-left:250px;
+}
+.head h1{
+    font-size:4rem;
+    background: linear-gradient(to left,violet,indigo, blue,green, yellow,orange,red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.head h2{
+    font-size: 2rem;
+    margin-left:40px ;
+    background: linear-gradient(to left,rgb(246, 7, 7),rgb(46, 237, 8), rgb(236, 5, 171),rgb(237, 7, 7));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.head p{
+    font-size:1.7rem;
+}
+.head h4{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    padding-left:50px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 2;
+    border-top: 1px solid #ccc;
+    margin-right:50px;
+    margin-left:50px;
+}
+.second{
+    display: flex;
+}
+.about{
+    margin: 30px 50px 0px 100px;
+}
+.about h1{
+    font-size:2.5rem;
+}
+.about p{
+    font-size: 1.4rem;
+    margin:20px ;
+    margin-right:px;
+}
+b{
+    background: linear-gradient(to left,green, yellow,orange,red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.image img{
+    margin-top: 200px;
+    padding-right: 100px;
+    width: 400px;
+}
+.heading{
+    margin-top:20px;
+    margin-left:80px;
+    font-size:1.2rem;
+    height: 100px;
+}
+.foot{
+    text-align: center;
+}
+.LOP{
+    display: flex;
+    justify-content:center;
+    padding-bottom:100px;
+}
+.LOP ul{
+    list-style-type:none;
+    margin:0 23px ;
+    display: inline-block;
+}
+.LOP ul li{
+    list-style-type:none;
+    display: inline-block;
+}
+.LOP ul li img{
+    width: 200px;
+    height: 200px;
+}
